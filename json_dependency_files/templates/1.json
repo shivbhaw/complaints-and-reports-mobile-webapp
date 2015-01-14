@@ -1,0 +1,78 @@
+{
+	tabs:[{
+		id: '1',
+		sets:[{
+			id: '1',
+			description: 'All the possible fields to fill out',
+			name:'Insertion Fields',
+			field:[{
+				id: '1',
+				name: 'TextBox',
+				type: 1,
+				config:[{
+					parent: null,
+					defaultValues:null,
+					disabled: null
+				}]
+			},{
+				id: '2',
+				name: 'TextBox Disabled',
+				type: 1,
+				config:[{
+					parent: null,
+					defaultValues:null,
+					disabled: 'true'
+				}]
+			},{
+				id: '3',
+				name: 'Example of a Required and Prefilled Field',
+				type: 1,
+				config:[{
+					required: 'true',
+					parent: null,
+					defaultValues:'varifying the data for requirements was done on the server side',
+					disabled: null
+				}]
+			},{
+				id: '4',
+				name: 'Multi-lined TextField',
+				type: 3,
+				config:[{
+					required: null,
+					parent: null,
+					defaultValues: null,
+					disabled: null
+				}]
+			},{
+				id: '5',
+				name: 'Textfield for Numbers',
+				type: 14,
+				config:[{
+					required: null,
+					parent: null,
+					defaultValues: null,
+					disabled: null
+				}]
+			},{
+				id: '6',
+				name: 'Date Selector',
+				type: 2,
+				config:[{
+					parent: null,
+					defaultValues:null,
+					disabled: null
+				}]
+			},{
+				id: '7',
+				name: 'TimeField',
+				type: 12,
+				config:[{
+					required: null,
+					parent: null,
+					defaultValues: null,
+					disabled: null
+				}]
+			}]
+		}]
+	}]
+}

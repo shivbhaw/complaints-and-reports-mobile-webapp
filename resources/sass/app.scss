@@ -1,0 +1,188 @@
+@import '../../sdk/resources/themes/stylesheets/sencha-touch/default/all';
+
+$include-default-icons: false;
+@include pictos-iconmask('user');
+@include pictos-iconmask('settings');
+
+/*colors for the styles
+		----------------*/
+//colors for: toolbar, tabbar
+$maincolor: #5F5F5F;//#FF8000;
+$forecolor: #636363;
+$parent-up-color: #FFB000;
+$parent-down-color: #CCC;
+$buttoncolor: #FF8000;//#5F5F5F;
+$listcolor: $buttoncolor + 30;
+$segbutton: -webkit-gradient(linear, left top, left bottom, from($listcolor), to($buttoncolor));
+
+/*style implemented using compass
+		----------------*/
+//universal base gradient
+$base-gradient: 'glossy';
+
+//color of toolbar background
+$toolbar-base-color: $maincolor;
+$toolbar-gradient: 'glossy';
+
+/*custom css for preexisting css
+		----------------*/
+$list-bg-color: #EEE;
+$color: $maincolor;
+$form-label-background-color: #FFF;
+
+
+$list-active-color: $listcolor;
+$list-pressed-color: lighten($listcolor, 20%);
+
+
+/*style implemented using configuration 'ui'
+		----------------*/
+//color of ui 'main-button' in app
+@include sencha-button-ui('main-button',$buttoncolor,'glossy');
+@include sencha-button-ui('logout-button',$maincolor,'glossy');
+
+//color of ui for 'maintabsui'
+@include sencha-tabbar-ui('maintabsui', $maincolor, 'glossy', #0033CC);
+
+//color of initial toolbar
+@include sencha-toolbar-ui('logintoolbarui', darken($maincolor, 10%), 'matte');
+
+/*which sencha modules styles to add
+	in order to make a smaller css file
+		----------------*/
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-toolbar-forms;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-form;
+@include sencha-msgbox;
+@include sencha-loading-spinner;
+
+
+.x-list-normal .x-list-item:last-child .x-list-item-label {
+border-bottom: 0;
+}
+
+.x-list-normal .x-list-item .x-list-item-label {
+border-top: 0;
+}
+
+.x-list .x-list-item .x-list-item-label {
+min-height: 2.6em;
+padding: 0.65em 0.4em;
+}
+
+
+.x-form-labelfield {
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  width: 0%;
+  position: absolute;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: .4em;
+  border: 0;
+  min-height: 0em;
+  display: none;
+  background: white none;
+  -webkit-appearance: none;
+}
+
+.x-list .x-list-disclosure {
+background-image: -webkit-linear-gradient(#CCC, #CDCDCD 50%, #BBB 51%, #BEBEBE);
+-webkit-mask-size: 1.4em;
+width: 2.5em;
+height: 2.5em;
+position: absolute;
+bottom: 0.14em;
+right: 0.04em;
+}
+.removable-item .x-list-disclosure {
+  -webkit-mask: 10px 10px url("delete_black1.png") no-repeat;
+  background-color: #BBB; 
+}
+
+.x-html {
+padding: 0em;
+}
+
+.single-clear-icon {
+-webkit-mask: url("delete_black1.png") no-repeat;
+width: 2.5em;
+height: 2.5em;
+background-image: -webkit-linear-gradient(#CCC, #CDCDCD 50%, #BBB 51%, #BEBEBE);
+-webkit-mask-size: 1.385em;
+-webkit-mask-position: 1.2ex 45%;
+}
+
+.x-field-input .x-clear-icon {
+	-webkit-mask: url("delete_black1.png") no-repeat;
+	width: 2.5em;
+	height: 2.5em;
+	background-image: -webkit-linear-gradient(#CCC, #CDCDCD 50%, #BBB 51%, #BEBEBE);
+	-webkit-mask-size: 1.385em;
+	-webkit-mask-position: 50% 50%;
+	background-size: 100% 100%;
+	top: 40%;
+}
+
+.search-field-clear-size .x-field-input .x-clear-icon {
+-webkit-mask-size: 1.2em;
+}
+
+body.x-desktop {
+	font-size: 104%;
+}
+
+.x-mask .x-mask-inner {
+	background: rgba(0, 0, 0, 0.0);
+	color: transparent;
+}
+
+.x-form-label-nowrap .x-form-label {
+white-space: normal;
+}
+
+.x-button.x-button-main-button, .x-toolbar .x-button.x-button-main-button, .x-button.x-button-main-button-round, .x-toolbar .x-button.x-button-main-button-round, .x-button.x-button-main-button-small, .x-toolbar .x-button.x-button-main-button-small {
+color: whiteSmoke;
+}
+
+
+.x-input-el {
+padding: .6em;
+}
+.msg-box-style {
+border: 0.15em solid $buttoncolor;
+}
+.single-clear-icon1 {
+-webkit-mask: url("delete_black1.png") no-repeat;
+width: 2.0em;
+height: 2.5em;
+background-image: -webkit-linear-gradient(#CCC, #CDCDCD 50%, #BBB 51%, #BEBEBE);
+-webkit-mask-size: 1.385em;
+-webkit-mask-position: 0.3ex 45%;
+}
+
+.single-clear-icon1 > div  {
+    height: 100%;
+    width: 100%;
+}
+
+
+.single-clear-icon1 > div > img {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.parent-button-up {
+background: $parent-up-color
+}
+
+.parent-button-down {
+background: $parent-down-color
+}

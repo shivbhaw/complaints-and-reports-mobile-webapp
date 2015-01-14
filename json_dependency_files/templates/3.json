@@ -1,0 +1,58 @@
+{
+	tabs:[{
+		id: '1',
+		sets:[{
+			id: '1',
+			description: 'Includes Lists where Singular choice could be made and Lists where Multiple choices could be made.',
+			name:'Demonstration of Lists',
+			field:[{
+				id: '1',
+				name: 'Single List',
+				type: 8,
+				config:[{
+					parent: null,
+					defaultValues:null,
+					disabled: null,
+					type: [1]
+				}]
+			},{
+				id: '2',
+				name: 'Multi List',
+				type: 5,
+				config:[{
+					parent: null,
+					defaultValues:null,
+					disabled: null,
+					type: [1]
+				}]
+			}]
+		},{
+			id: '2',
+			description: 'Built to accomodate one of the requirements on the official application. Like before, contains a singular and multiple version.',
+			name:'Modified List Self Built',
+			field:[{
+				id: '3',
+				name: 'Single List',
+				type: 4,
+				config:[{
+					parent: null,
+					defaultValues:null,
+					disabled: null,
+					type: [1,2],
+					multiselect: 'false'
+				}]
+			},{
+				id: '4',
+				name: 'Multi List',
+				type: 4,
+				config:[{
+					parent: null,
+					defaultValues:null,
+					disabled: null,
+					type: [1,2],
+					multiselect: 'true'
+				}]
+			}]
+		}]
+	}]
+}

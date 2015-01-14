@@ -1,0 +1,259 @@
+{
+	"langdata":[{
+		"id": "1",
+		"value": "Nederlands",
+		"data": [{
+			"id": "lang_prefex",
+			"value": "Taal: "
+		},{
+			"id": "button_send",
+			"value": "Verzenden"
+		},{
+			"id": "button_send_cancel",
+			"value": "Annuleren"
+		},{
+			"id": "title_select",
+			"value": "Selecteren"
+		},{
+			"id": "button_ok",
+			"value": "Ok"
+		},{
+			"id": "button_cancel",
+			"value": "Annuleren"
+		},{
+			"id": "button_clear",
+			"value": "Wissen"
+		},{
+			"id": "text_click_to_add",
+			"value": "Voeg toe"
+		},{
+			"id": "text_enter_text",
+			"value": "Text hier inzetten"
+		},{
+			"id": "text_none",
+			"value": "Niks"
+		},{
+			"id": "button_guest",
+			"value": "Gast"
+		},{
+			"id": "button_login",
+			"value": "Inloggen"
+		},{
+			"id": "button_settings",
+			"value": "Instellingen"
+		},{
+			"id": "button_logout",
+			"value": "Uitloggen"
+		},{
+			"id": "button_back",
+			"value": "Terug"
+		},{
+			"id": "text_username",
+			"value": "Gebruikersnaam"
+		},{
+			"id": "text_password",
+			"value": "Wachtwoord"
+		},{
+			"id": "error_title",
+			"value": "Error"
+		},{
+			"id": "error_server",
+			"value": "(in dutch)An error occured with the connection<br>to the server."
+		},{
+			"id": "text_template_recreate",
+			"value": "Wil Je Andere Meldingens Maken?"
+		},{
+			"id": "send_title",
+			"value": "Versenden"
+		},{
+			"id": "send_message",
+			"value": "Wil je deze melding inzetten?"
+		},{
+			"id": "error_parent_title",
+			"value": "Error"
+		},{
+			"id": "error_parent_message",
+			"value": "Van deze field, pak een of meer:<br>"
+		},{
+			"id": "na_attachments",
+			"value": "Attachments kunt je nu niet"
+		},{
+			"id": "na_lookup",
+			"value": "Lookup kunt je nu niet"
+		},{
+			"id": "na_field",
+			"value": "Deze field kunt je nu niet"
+		},{
+			"id": "button_yes",
+			"value": "Ja"
+		},{
+			"id": "button_no",
+			"value": "Nee"
+		},{
+			"id": "time_hour",
+			"value": "Huur(s)"
+		},{
+			"id": "time_min",
+			"value": "Minuten"
+		},{
+			"id": "text_current_user",
+			"value": "De user nu:"
+		},{
+			"id": "link_functie",
+			"value": "Functie"
+		},{
+			"id": "link_afdeling",
+			"value": "Afdeling"
+		},{
+			"id": "link_andere",
+			"value": "Andere"
+		},{
+			"id": "link_medewerker",
+			"value": "Medewerker"
+		},{
+			"id": "link_e_medewerker",
+			"value": "Externie Medewerker"
+		},{
+			"id": "link_e_organisatie",
+			"value": "Externie Organisatie"
+		},{
+			"id": "link_weet_niet",
+			"value": "Weet Deze Niet"
+		},{
+			"id": "link_category_1",
+			"value": "Category 1 (in dutch)"
+		},{
+			"id": "link_category_2",
+			"value": "Category 2 (in dutch)"
+		}
+		]
+	},{
+		"id": "2",
+		"value": "English",
+		"data": [
+		{
+			"id": "lang_prefex",
+			"value": "Language: "
+		},{
+			"id": "button_send",
+			"value": "Send"
+		},{
+			"id": "button_send_cancel",
+			"value": "Cancel"
+		},{
+			"id": "title_select",
+			"value": "Select"
+		},{
+			"id": "button_ok",
+			"value": "Ok"
+		},{
+			"id": "button_cancel",
+			"value": "Cancel"
+		},{
+			"id": "button_clear",
+			"value": "Clear"
+		},{
+			"id": "text_click_to_add",
+			"value": "Click to add"
+		},{
+			"id": "text_enter_text",
+			"value": "Enter text here"
+		},{
+			"id": "text_none",
+			"value": "None"
+		},{
+			"id": "button_guest",
+			"value": "Guest"
+		},{
+			"id": "button_login",
+			"value": "Login"
+		},{
+			"id": "button_settings",
+			"value": "Settings"
+		},{
+			"id": "button_logout",
+			"value": "Logout"
+		},{
+			"id": "button_back",
+			"value": "Back"
+		},{
+			"id": "text_username",
+			"value": "Username"
+		},{
+			"id": "text_password",
+			"value": "Password"
+		},{
+			"id": "error_title",
+			"value": "Error"
+		},{
+			"id": "error_server",
+			"value": "An error occured with the connection<br>to the server."
+		},{
+			"id": "text_template_recreate",
+			"value": "Create Another Report?"
+		},{
+			"id": "send_title",
+			"value": "Send"
+		},{
+			"id": "send_message",
+			"value": "Would you like to send this report in?"
+		},{
+			"id": "error_parent_title",
+			"value": "Error"
+		},{
+			"id": "error_parent_message",
+			"value": "Please choose one or more<br>from the following field:<br>"
+		},{
+			"id": "na_attachments",
+			"value": "Attachments are currently not supported."
+		},{
+			"id": "na_lookup",
+			"value": "Lookup are currently not supported."
+		},{
+			"id": "na_field",
+			"value": "This field are currently not supported."
+		},{
+			"id": "button_yes",
+			"value": "Yes"
+		},{
+			"id": "button_no",
+			"value": "No"
+		},{
+			"id": "time_hour",
+			"value": "Hour(s)"
+		},{
+			"id": "time_min",
+			"value": "Minute(s)"
+		},{
+			"id": "text_current_user",
+			"value": "Current User:"
+		},{
+			"id": "link_functie",
+			"value": "Function"
+		},{
+			"id": "link_afdeling",
+			"value": "Department"
+		},{
+			"id": "link_andere",
+			"value": "Other"
+		},{
+			"id": "link_medewerker",
+			"value": "Employees"
+		},{
+			"id": "link_e_medewerker",
+			"value": "External Employees"
+		},{
+			"id": "link_e_organisatie",
+			"value": "External Organizations"
+		},{
+			"id": "link_weet_niet",
+			"value": "Unknown"
+		},{
+			"id": "link_category_1",
+			"value": "Category 1"
+		},{
+			"id": "link_category_2",
+			"value": "Category 2"
+		}]
+	}]
+}

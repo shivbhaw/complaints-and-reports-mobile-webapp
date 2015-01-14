@@ -1,0 +1,21 @@
+{
+	templates: [{
+		id:'1',
+		name:'Shows All Text Fields With Possibilities',
+		description:'The first template',
+		type: 'Template Set 1'
+		
+	},{
+		id:'2',
+		name:'Knitted Seperate Sets',
+		description:'',
+		type: 'Template Set 1'
+		
+	},{
+		id:'3',
+		name:'Bares All The Lists',
+		description:'',
+		type: 'Template Set 2'
+		
+	}]
+}

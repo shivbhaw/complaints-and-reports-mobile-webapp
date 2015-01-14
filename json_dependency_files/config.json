@@ -1,0 +1,9 @@
+{
+	"config":[{   
+			"id": "login-initialize",
+			"value": "1"
+		},{
+			"id": "lang-default",
+			"value": "2"
+		}]
+}
